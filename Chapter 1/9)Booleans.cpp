@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    bool x=true;
+    bool y=false;
+
+    cout << x << endl;
+    cout << y << endl;
+
+    cout << boolalpha << endl;
+    cout << x << endl;
+    cout << y << endl;
+    return 0;
+}
