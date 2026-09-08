@@ -11,7 +11,7 @@ template<>
 char maxi<char>(char a,char b)
 {
     cout << "hello" << endl;
-    return (a>b)?a:b;
+    return (a<b)?a:b;
 }
 
 int main()
